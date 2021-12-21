@@ -76,5 +76,5 @@ if(traingleFiveArea > traingleSixArea) {
     caseNoteThree.innerText = `CASE 3: Triangle Five has an area of ${traingleFiveArea}cm and Triangle Six has ${traingleSixArea}cm`
 } else {
     console.log(`CASE 3: Triangle Six has an area of xx and Triangle Five has cm2`)
-    caseNoteThree.innerText = `CASE 3: Triangle Six has an area of ${traingleSixArea} and Triangle Five has ${traingleFiveArea}cm`
+    caseNoteThree.innerText = `CASE 3: Triangle Six has an area of ${traingleSixArea}cm and Triangle Five has ${traingleFiveArea}cm`
 }
