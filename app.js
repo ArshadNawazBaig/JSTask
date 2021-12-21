@@ -19,10 +19,10 @@ const caseNoteOne = document.getElementById('case-one');
 
 if(traingleOneArea > traingleTwoArea) {
     console.log(`CASE 1: Triangle One has an area of xx and Triangle Two has cm2`)
-    caseNoteOne.innerText = 'CASE 1: Triangle One has an area of xx and Triangle Two has cm2';
+    caseNoteOne.innerText = `CASE 1: Triangle One has an area of ${traingleOneArea}cm and Triangle Two has ${traingleTwoArea}cm`;
 } else {
     console.log(`CASE 1: Triangle Two has an area of xx and Triangle One has cm2`)
-    caseNoteOne.innerText = 'CASE 1: Triangle Two has an area of xx and Triangle One has cm2';
+    caseNoteOne.innerText = `CASE 1: Triangle Two has an area of ${traingleTwoArea}cm and Triangle One has ${traingleOneArea}cm`;
 }
 
 // Triangle Three 
@@ -46,10 +46,10 @@ const caseNoteTwo = document.getElementById('case-two');
 
 if(traingleThreeArea > traingleFourArea) {
     console.log(`CASE 2: Triangle Three has an area of xx and Triangle Four has cm2`)
-    caseNoteTwo.innerText = 'CASE 2: Triangle Three has an area of xx and Triangle Four has cm2';
+    caseNoteTwo.innerText = `CASE 2: Triangle Three has an area of ${traingleThreeArea}cm and Triangle Four has ${traingleFourArea}cm`;
 } else {
     console.log(`CASE 2: Triangle Four has an area of xx and Triangle Three has cm2`)
-    caseNoteTwo.innerText = 'CASE 2: Triangle Four has an area of xx and Triangle Three has cm2';
+    caseNoteTwo.innerText = `CASE 2: Triangle Four has an area of ${traingleFourArea}cm and Triangle Three has ${traingleThreeArea}cm`;
 }
 
 // Triangle Five 
@@ -73,8 +73,8 @@ const caseNoteThree = document.getElementById('case-three');
 
 if(traingleFiveArea > traingleSixArea) {
     console.log(`CASE 3: Triangle Five has an area of xx and Triangle Six has cm3`)
-    caseNoteThree.innerText = 'CASE 3: Triangle Five has an area of xx and Triangle Six has cm3'
+    caseNoteThree.innerText = `CASE 3: Triangle Five has an area of ${traingleFiveArea}cm and Triangle Six has ${traingleSixArea}cm`
 } else {
     console.log(`CASE 3: Triangle Six has an area of xx and Triangle Five has cm2`)
-    caseNoteThree.innerText = 'CASE 3: Triangle Five has an area of xx and Triangle Six has cm3'
+    caseNoteThree.innerText = `CASE 3: Triangle Six has an area of ${traingleSixArea} and Triangle Five has ${traingleFiveArea}cm`
 }
